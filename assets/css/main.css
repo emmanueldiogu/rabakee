@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --rabakeeFirstColor: rgb(114, 160, 193);
+    --rabakeeFirstColorTp: rgba(115, 112, 216, 0.5);
+    --rabakeeSecondColor: rgb(68, 69, 79);
+    --rabakeeThirdColor: #f2f2f2;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+
+/* Header elements */
+.header-ra{
+    height: 60px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    background-color: var(--rabakeeThirdColor);
+}
+.header-left ul{
+    float: right;
+}
+.header-left ul li{
+    display: inline-block;
+}
+
+/* Navbar section */
+.navigation{
+    background-color: var(--rabakeeFirstColor);
+}
+.navigation ul li a{
+    color: var(--rabakeeThirdColor);
+}
+.navbar .collapse .navbar-nav li a {
+    font-size: 16px;
+    color: #fff !important;
+    font-family: 'Lato', sans-serif;
+    margin-top: 18px;
+    padding-left: 27px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.navbar .collapse .navbar-nav li a:hover{
+    color: var(--rabakeeSecondColor) !important;
+    background-color: var(--rabakeeThirdColor);
+} 
+
+/* .navbar .collapse .navbar-nav li a.active{
+    color: var(--rabakeeSecondColor);
+    background-color: var(--rabakeeThirdColor);
+} */
+
+.nav-click{
+    padding: 1px 10px;
+}
+
+/* Welcome Banner starts */
+.banner{
+    position: relative;
+    height: 600px;
+    background-image: url('../images/rabakee_slider_3.jpg');
+    background-position: center;
+}
+.overlay-content{
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+/* How it works */
+.how-it-works{
+    margin: auto;
+    padding-top: 0px;
+}
+.working{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: var(--rabakeeFirstColor);
+    z-index: 2;
+    margin-top: -50px;
+}
+.how-card{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+ }
+
+.embed-video{
+    margin: 0 auto;
+}
+
+
+/* Rides near yoy */
+.date-time{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.dos-donts-tab{
+    padding: .5rem .75rem !important;
+}
+@media only screen and (max-width: 576Px) {
+    .header-image{
+        width: 75%;
+    }
+}

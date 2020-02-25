@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/font-awesome/all.min.css">
+
+    <title>RabaKee:: Offer a ride</title>
+  </head>
+  <body>
+    <!--header start-->
+		<section id="home"  class="header-ra">
+			<div class="container-fluid">	
+				<div class="header-left">
+          <ul class="pull-right list-group list-group-horizontal">
+            <li class="list-group-item">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="list-group-item">
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-group-item">
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="list-group-item">
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+				</div><!--/.header-left -->
+			</div><!--/.container -->	
+    </section><!--/.header-->
+
+    <!-- Start Naviagation section -->
+    <section class="navbar navbar-expand-md navbar-light sticky-top navigation">
+      <div class="container-fluid">
+        <div class="col-lg-4 col-xs-12">
+            <a class="navbar-brand"  href="./index.html"><img class="header-image" src="./assets/images/logo.png" alt="Rabakee logo"></a>        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive ">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="./findaride.html" class="nav-link">Find a ride</a>
+            </li>
+            <li class="nav-item">
+              <a href="./offeraride.html" class="nav-link active">Offer a ride</a>
+            </li>
+            <li class="nav-item">
+              <a href="./contact.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="navbar-nav text-center">
+            <li class="nav-click">
+              <a href="" data-toggle="modal" data-target="#signInModal">
+                <i class="fas fa-2x fa-unlock-alt"></i>
+                <h6>Login</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="" data-toggle="modal" data-target="#signUpModal">
+                <i class="fas fa-2x fa-user-plus"></i>
+                <h6>Sign up</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+
+        </div>
+      </div>
+    </section> <!-- End navigation section -->
+
+    <!-- Material form register -->
+<div class="card">
+
+    <h5 class="card-header white-text text-center py-4">
+        <strong>Sign up</strong>
+    </h5>
+
+    <!--Card content-->
+    <div class="card-body px-lg-5 pt-0 mx-auto">
+
+        <!-- Form -->
+        <form class="text-center" style="color: #757575;" action="#!">
+
+            <div class="form-row">
+                <div class="col">
+                    <!-- First name -->
+                    <div class="md-form">
+                        <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                        <label for="materialRegisterFormFirstName">First name</label>
+                    </div>
+                </div>
+                <div class="col">
+                    <!-- Last name -->
+                    <div class="md-form">
+                        <input type="email" id="materialRegisterFormLastName" class="form-control">
+                        <label for="materialRegisterFormLastName">Last name</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- E-mail -->
+            <div class="md-form mt-0">
+                <input type="email" id="materialRegisterFormEmail" class="form-control">
+                <label for="materialRegisterFormEmail">E-mail</label>
+            </div>
+
+            <!-- Password -->
+            <div class="md-form">
+                <input type="password" id="materialRegisterFormPassword" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock">
+                <label for="materialRegisterFormPassword">Password</label>
+                <small id="materialRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                    At least 8 characters and 1 digit
+                </small>
+            </div>
+
+            <!-- Phone number -->
+            <div class="md-form">
+                <input type="password" id="materialRegisterFormPhone" class="form-control" aria-describedby="materialRegisterFormPhoneHelpBlock">
+                <label for="materialRegisterFormPhone">Phone number</label>
+                <small id="materialRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+                    Optional - for two step authentication
+                </small>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="materialRegisterFormNewsletter">
+                <label class="form-check-label" for="materialRegisterFormNewsletter">Subscribe to our newsletter</label>
+            </div>
+
+            <!-- Sign up button -->
+            <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Sign in</button>
+
+            <!-- Social register -->
+            <p>or sign up with:</p>
+
+            <a type="button" class="btn-floating btn-fb btn-sm">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a type="button" class="btn-floating btn-tw btn-sm">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a type="button" class="btn-floating btn-li btn-sm">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a type="button" class="btn-floating btn-git btn-sm">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <hr>
+
+            <!-- Terms of service -->
+            <p>By clicking
+                <em>Sign up</em> you agree to our
+                <a href="" target="_blank">terms of service</a>
+
+        </form>
+        <!-- Form -->
+
+    </div>
+
+</div>
+<!-- Material form register -->
+
+
+
+
+    <!-- Footer -->
+<footer class="text-light font-small bg-dark pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <img src="./assets/images/logo.png" alt="rabakee logo" style="width: 80%;">
+        <br>
+        <br>
+        <ul>
+          <li><a href="">How it works</a></li>
+          <li><a href=""> Trust, Safety and Insurance</a></li>
+          <li><a href="">FAQs</a></li>
+          <li><a href="">Terms $ Conditions</a></li>
+        </ul>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h4>Our Company</h4>
+        <ul>
+          <li><a href="">About Us</a></li>
+          <li><a href=""> Contact Us</a></li>
+          <li><a href="">Partners</a></li>
+          <li><a href="">We are Hiring</a></li>
+          <li><a href="">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mx-auto mt-3">
+        <!-- Call to action -->
+  
+    <h4>Subscribe to our newsletter</h4>
+    <form class="form-inline">
+      <div class="form-group">
+        
+        <label for=""></label>
+        <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+        <button type="button" class="btn btn-primary">SUBMIT</button>
+      </div>
+    </form>
+    <P>We will never send you unsolicited emails. If you submit your email address to us it will be used solely for the purpose described in our T&Cs.</P>
+  
+  <!-- Call to action -->
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Footer links -->
+
+    <hr>
+
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">© 2020 Copyright:
+          <a href="#">
+            <strong>Rabakee Nigeria Ltd</strong>
+          </a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
+
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="./assets/js/font-awesome/all.min.js"></script>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Signin</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <button type="button" class="btn btn-primary btn-lg ">Signin as Rider</button>
+            <button type="button" class="btn btn-primary btn-lg ">Signin as Driver</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Signup</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+            <button type="button" class="btn btn-primary btn-lg ">Signup as Rider</button>
+            <button type="button" class="btn btn-primary btn-lg ">Signup as Driver</button>
+            
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  </body>
+</html>

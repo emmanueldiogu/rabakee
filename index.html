@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/font-awesome/all.min.css">
+
+    <title>RabaKee: Home</title>
+  </head>
+  <body>
+    <!--header start-->
+		<section id="home"  class="header-ra">
+			<div class="container-fluid">	
+				<div class="header-left">
+          <ul class="pull-right list-group list-group-horizontal">
+            <li class="list-group-item">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="list-group-item">
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-group-item">
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="list-group-item">
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+				</div><!--/.header-left -->
+			</div><!--/.container -->	
+    </section><!--/.header-->
+
+    <!-- Start Naviagation section -->
+    <section class="navbar navbar-expand-md navbar-light sticky-top navigation">
+      <div class="container-fluid">
+        <div class="col-lg-4 col-xs-12">
+
+          <a class="navbar-brand"  href="./index.html"><img class="header-image" src="./assets/images/logo.png" alt="Rabakee logo"></a>
+
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive ">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="./findaride.html" class="nav-link">Find a ride</a>
+            </li>
+            <li class="nav-item">
+              <a href="./offeraride.html" class="nav-link">Offer a ride</a>
+            </li>
+            <li class="nav-item">
+              <a href="./contact.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="navbar-nav text-center">
+            <li class="nav-click">
+              <a href="" data-toggle="modal" data-target="#signInModal">
+                <i class="fas fa-2x fa-unlock-alt"></i>
+                <h6>Login</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="" data-toggle="modal" data-target="#signUpModal">
+                <i class="fas fa-2x fa-user-plus"></i>
+                <h6>Sign up</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+
+        </div>
+      </div>
+    </section> <!-- End navigation section -->
+
+    <!-- Welcome Banner -->
+    <section class="container-fluid banner"> 
+     <div class="row banner-overlay"></div>
+     <div class="overlay-content">
+      <h3 class="display-4">
+        Find a Ride...
+      </h3>
+      <p>We Love to Share!</p>
+      <form class="form" method="post" action="">
+        <div class="input-group">
+          <input class="form-control" type="text" name="goingto" placeholder="From" aria-label="Recipient's " aria-describedby="my-addon">
+          <div class="input-group-append">
+            <span class="input-group-text" id="my-addon"><i class="fas fa-map-marker-alt"></i></span>
+          </div>
+          <input class="form-control" type="text" name="fromwhere" placeholder="To" aria-label="Recipient's " aria-describedby="my-addon">
+          <div class="input-group-append">
+            <span class="input-group-text" id="my-addon"><i class="fas fa-map-marker-alt"></i></span>
+          </div>
+          <input class="form-control" type="date" name="depaturedate" placeholder="Date" aria-label="Recipient's " aria-describedby="my-addon">
+          <div class="input-group-append">
+            <span class="input-group-text" id="my-addon"><i class="fas fa-calendar-alt"></i></span>
+          </div>
+        </div><br>
+        <button class="btn btn-outline-light btn-md" type="button">Find a Ride</button>
+      </form>
+    </div>
+    </section>
+    <!-- Welcome Banner -->
+
+    <!-- How it works -->
+    <section class="container col-md-11 col-lg-9 working">
+      <h1 class="display-4">How it works...</h1>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card how-card">
+            <i class="fas fa-5x fa-info how-it-works"></i>
+            <div class="card-body">
+              <h5 class="card-title">Provide Journey Details</h5>
+              <p class="card-text">Provide details of your location and your intended destination with date.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card how-card">
+            <i class="fas fa-5x fa-search how-it-works"></i>
+            <div class="card-body">
+              <h5 class="card-title">Find a Match</h5>
+              <p class="card-text">Click the find a match button to search our databse for drivers that matches your destination detail.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card how-card">
+            <i class="fas fa-5x fa-route how-it-works"></i>
+            <div class="card-body">
+              <h5 class="card-title">Start your Trip</h5>
+              <p class="card-text">Once the driver accpets your request, wait at the meeting point and enjoy your ride.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>
+          It's easy to use
+        </h3>
+        <p>Watch how easy it is to use!</p>
+        <i class="fas fa-3x fa-arrow-down"></i>
+        <br>
+        <br>
+        <div class="embed-responsive embed-responsive-16by9 col-xs-12 col-md-6 embed-video">
+          <iframe width="512" height="300" src="https://www.youtube.com/embed/61OzhSrgsd8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- How it works ends-->
+
+<!-- share ride ribbon -->
+<div class="jumbotron jumbotron-fluid text-center">
+  <h1 class="display-4">Traveling Alone!</h1>
+  <p class="lead">Offer a ride and earn money! Enjoy the freedom of income with no efforts with the help of this simple genuis website</p>
+  <button class="btn btn-primary" type="button">Offer a Ride Now</button>
+</div>
+
+    <!-- popular rides -->
+    <section class="container" style="text-align: center;">
+      <h1>Rides Near You </h1>
+      <hr class="mx-auto" style="width: 300px;">
+      <br>
+      
+        <div class="card-columns">
+          
+          <!-- single card for drivers near you -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="./assets/images/male.png" class="card-img rounded-circle p-2" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body text-left">
+                  <h6 class="card-title">Kubwa, ABV - Ikeja, LOS <span class="date-time">Feb 22, 2020 - 02:10pm</span></h6>
+                  <p class="card-text font-weight-bold">Car: <span class="font-weight-normal">Toyota Camry</span></p>
+                      <div class="text-warning">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                  <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-music"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-paw"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-smoking-ban"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-suitcase-rolling"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End card for Drivers near you -->
+          
+          <!-- single card for drivers near you -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="./assets/images/male.png" class="card-img rounded-circle p-2" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body text-left">
+                  <h6 class="card-title">Kubwa, ABV - Ikeja, LOS <span class="date-time">Feb 22, 2020 - 02:10pm</span></h6>
+                  <p class="card-text font-weight-bold">Car: <span class="font-weight-normal">Toyota Camry</span></p>
+                      <div class="text-warning">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                  <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-music"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-paw"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-smoking-ban"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-suitcase-rolling"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End card for Drivers near you -->
+          
+          <!-- single card for drivers near you -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="./assets/images/male.png" class="card-img rounded-circle p-2" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body text-left">
+                  <h6 class="card-title">Kubwa, ABV - Ikeja, LOS <span class="date-time">Feb 22, 2020 - 02:10pm</span></h6>
+                  <p class="card-text font-weight-bold">Car: <span class="font-weight-normal">Toyota Camry</span></p>
+                      <div class="text-warning">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                  <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-music"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-paw"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-smoking-ban"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-suitcase-rolling"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End card for Drivers near you -->
+          
+          <!-- single card for drivers near you -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="./assets/images/female.png" class="card-img rounded-circle p-2" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body text-left">
+                  <h6 class="card-title">Kubwa, ABV - Ikeja, LOS <span class="date-time">Feb 22, 2020 - 02:10pm</span></h6>
+                  <p class="card-text font-weight-bold">Car: <span class="font-weight-normal">Toyota Camry</span></p>
+                      <div class="text-warning">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                  <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-music"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-paw"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-smoking-ban"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-suitcase-rolling"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End card for Drivers near you -->
+          
+          <!-- single card for drivers near you -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="./assets/images/female.png" class="card-img rounded-circle p-2" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body text-left">
+                  <h6 class="card-title">Kubwa, ABV - Ikeja, LOS <span class="date-time">Feb 22, 2020 - 02:10pm</span></h6>
+                  <p class="card-text font-weight-bold">Car: <span class="font-weight-normal">Toyota Camry</span></p>
+                      <div class="text-warning">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                  <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-music"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-paw"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-smoking-ban"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-suitcase-rolling"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End card for Drivers near you -->
+          <!-- single card for drivers near you -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="./assets/images/female.png" class="card-img rounded-circle p-2" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body text-left">
+                  <h6 class="card-title">Kubwa, ABV - Ikeja, LOS <span class="date-time">Feb 22, 2020 - 02:10pm</span></h6>
+                  <p class="card-text font-weight-bold">Car: <span class="font-weight-normal">Toyota Camry</span></p>
+                      <div class="text-warning">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                  <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-music"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-paw"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-smoking-ban"></i></a>
+                    </li>
+                    <li class="list-group-item dos-donts-tab">
+                      <a href=""><i class="fas fa-suitcase-rolling"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End card for Drivers near you -->
+
+        </div>
+        <button class="btn btn-primary" type="button">Offer a Ride Now</button>
+    </section>
+    <br>
+    <br>
+
+
+    <!-- Footer -->
+<footer class="text-light font-small bg-dark pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <img src="./assets/images/logo.png" alt="rabakee logo" style="width: 80%;">
+        <br>
+        <br>
+        <ul>
+          <li><a href="">How it works</a></li>
+          <li><a href=""> Trust, Safety and Insurance</a></li>
+          <li><a href="">FAQs</a></li>
+          <li><a href="">Terms $ Conditions</a></li>
+        </ul>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h4>Our Company</h4>
+        <ul>
+          <li><a href="">About Us</a></li>
+          <li><a href=""> Contact Us</a></li>
+          <li><a href="">Partners</a></li>
+          <li><a href="">We are Hiring</a></li>
+          <li><a href="">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mx-auto mt-3">
+        <!-- Call to action -->
+  
+    <h4>Subscribe to our newsletter</h4>
+    <form class="form-inline">
+      <div class="form-group">
+        
+        <label for=""></label>
+        <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+        <button type="button" class="btn btn-primary">SUBMIT</button>
+      </div>
+    </form>
+    <P>We will never send you unsolicited emails. If you submit your email address to us it will be used solely for the purpose described in our T&Cs.</P>
+  
+  <!-- Call to action -->
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Footer links -->
+
+    <hr>
+
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">© 2020 Copyright:
+          <a href="#">
+            <strong>Rabakee Nigeria Ltd</strong>
+          </a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
+
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="./assets/js/font-awesome/all.min.js"></script>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Signin</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <button type="button" class="btn btn-primary btn-lg ">Signin as Rider</button>
+          <button type="button" class="btn btn-primary btn-lg ">Signin as Driver</button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Signup</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+          <button type="button" class="btn btn-primary btn-lg ">Signup as Rider</button>
+          <button type="button" class="btn btn-primary btn-lg ">Signup as Driver</button>
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+  </body>
+</html>
